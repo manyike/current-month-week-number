@@ -1,0 +1,26 @@
+{
+  "name": "current-month-week-number",
+  "version": "1.0.0",
+  "description": "Get the current month week number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manyike/current-month-week-number.git"
+  },
+  "keywords": [
+    "week",
+    "number"
+  ],
+  "author": "Emmanuel-nyiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manyike/current-month-week-number/issues"
+  },
+  "homepage": "https://github.com/manyike/current-month-week-number#readme",
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
