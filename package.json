@@ -1,6 +1,6 @@
 {
   "name": "current-month-week-number",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Get the current month week number",
   "main": "index.js",
   "scripts": {
