@@ -5,7 +5,7 @@ Simple function to get the current month's week number for a given day in that m
 ## Motivation
 
 The main reason I created this package was as a result of wanting to do something that I thought was easy but after spending hours without getting it right and a lot of suggested solutions on stack overflow not achieving what I wanted. 
-I vowed that once I get it working I'll publish the solution for someone to use it if they ever have similar requirement that I had. So this is me fulfilling my vow :); I hope someone will find this useful.
+I vowed that once I get it working I'll publish the solution for someone to use it if they ever have similar requirement that I had. So this is me fulfilling my vow :); I hope someone will find this useful. Thanks to [Cornelous](https://github.com/cornelous) and [Tinashe](https://github.com/cylon85) for their valuable input.
 
 
 ## Installation
