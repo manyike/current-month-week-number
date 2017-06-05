@@ -35,7 +35,7 @@ npm run coverage
 - [moment](https://github.com/moment/moment): Parse, validate, manipulate, and display dates
 
 ## Dev Dependencies
-
+- [jest](http://facebook.github.io/jest/) Delightful JavaScript Testing
 
 None
 
