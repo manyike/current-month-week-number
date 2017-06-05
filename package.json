@@ -4,7 +4,8 @@
   "description": "Get the current month week number",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/manyike/current-month-week-number#readme",
   "dependencies": {
     "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
   }
 }

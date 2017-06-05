@@ -17,7 +17,9 @@ npm install current-month-week-number --save
 
 ```sh
 var weekNumber = require('current-month-week-number');
-var weekNumberIs = weekNumber.weekNumberOfCurrentMonth(11);
+var weekNumberIs = weekNumber.weekNumberOfCurrentMonth(11); // 11th of the current month
+var weekNumberForGivenDate = weekNumber.weekNumberForGivenDate('2017', '1', '17');// i.e January 17th 2017
+Note: month must be between 1-12 and date between 1-31 and year must be full year including century like 2010 or 1999
 ```
 
 ## Tests
@@ -25,6 +27,7 @@ var weekNumberIs = weekNumber.weekNumberOfCurrentMonth(11);
 ```sh
 npm install
 npm test
+npm run coverage
 ```
 
 ## Dependencies
