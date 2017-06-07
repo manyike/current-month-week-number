@@ -6,3 +6,9 @@ branches:
     - master
 before_script:
   - npm install -g jest
+addons:
+  code_climate:
+    repo_token: 35e8c7f7a8a29c7897ace40d93345e3f14d188c6cd9b3ff7e012ed121ac79941
+after_success:
+  - npm install -g codeclimate-test-reporter
+  - codeclimate-test-reporter < coverage/lcov.info
